@@ -3,77 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Your Portfolio</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to your external CSS file -->
+    <title>Space Projects</title>
+    <link rel="stylesheet" href="portfolio.css">
 </head>
 <body>
-
-    <!-- Header Section -->
-    <header>
-        <div class="header-container">
-            <div class="profile-picture">
-                <img src="profile-pic.jpg" alt="Profile Picture"> <!-- Replace with your image -->
-            </div>
-            <div class="header-text">
-                <h1>Your Name</h1>
-                <p>Web Developer | Designer | Creative Enthusiast</p>
-                <a href="#contact" class="cta-btn">Contact Me</a>
-            </div>
+    <div class = "index">
+        <div class = "back">
+            <a href="/index.html"> &#x2190; BACK</a>
         </div>
-    </header>
-
-    <!-- About Me Section -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hi! I'm Your Name, a passionate web developer with a love for creating responsive and dynamic websites. I have experience working with various front-end and back-end technologies, and I am always eager to learn new skills.</p>
-        <p>Feel free to browse through my work below!</p>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>My Projects</h2>
-        <div class="projects-container">
-            <div class="project-card">
-                <img src="project1.jpg" alt="Project 1">
-                <h3>Project One</h3>
-                <p>Description of your project goes here. What technologies you used, what the project does, etc.</p>
-                <a href="https://github.com/your-project-link" target="_blank">View Project</a>
-            </div>
-            <div class="project-card">
-                <img src="project2.jpg" alt="Project 2">
-                <h3>Project Two</h3>
-                <p>Description of your project goes here. What technologies you used, what the project does, etc.</p>
-                <a href="https://github.com/your-project-link" target="_blank">View Project</a>
-            </div>
-            <!-- Add more project cards as needed -->
+        <div class = "profilepic">
+            <img src="/img/output-onlinepngtools_processed.png" alt="Profile Picture">
+        <h2>Vishal's Portfolio</h2>
+        <div class="contact-info" id="contact-info">
+            <p>Email: VishalVunnam@gmail.com</p>
+            <p>Phone: (720)-705-0539</p>
+            <p><a class="linked" href="https://linkedin.com/in/vishal-vunnam" target="_blank">LinkedIn</a></p>
         </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>If you'd like to get in touch, feel free to reach out to me using the contact form below or via my email.</p>
-        <div class="contact-container">
-            <form action="your-form-handler.php" method="post">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="message">Message</label>
-                <textarea id="message" name="message" required></textarea>
-
-                <button type="submit" class="submit-btn">Send Message</button>
-            </form>
         </div>
-    </section>
-
-    <!-- Footer Section -->
-    <footer>
-        <p>&copy; 2025 Your Name | All Rights Reserved</p>
-    </footer>
-
+    </div>
+        <div class="main-screen" id="projects-container">
+            <!-- Project cards will be dynamically inserted here -->
+        </div>
+        <script src="portfolio.js"></script>
 </body>
 </html>
