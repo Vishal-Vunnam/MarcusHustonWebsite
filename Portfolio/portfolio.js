@@ -1,24 +1,24 @@
 const projects = [
     {
-        img: "/img/CuGreets.jpg",
+        img: "img/CuGreets.jpg",
         title: "CU Greets you",
         description: "I used surveys and Tableau to analyze feedback on an Information Science project, identifying areas for improvement. Insights from the data led to an app concept helping immigrants in Boulder find local resources."
     },
     {
-        img: "/img/NBA.jpg",
+        img: "img/NBA.jpg",
         title: "NBA Data",
         description: "Utilized Python to analyze the relationship between NBA player salaries, age, and performance. Using data from the NBA API, I identified patterns and visualized trends using pandas and matplotlib."
     },
     {
-        img: "/img/Twitter.jpg",
+        img: "img/Twitter.jpg",
         title: "Twitter Analysis",
         description: "I developed a Python function to analyze Twitter data from a CSV file, identifying trends in political discourse. Using pandas, I extracted hashtags, and keywords to determine which politicians discussed issues frequently."
     }, {
-        img: "/img/TheBeach.jpg",
+        img: "img/TheBeach.jpg",
         title: "ICC in SEA",
         description: "examined how Western tourism shapes Southeast Asian cultures, highlighting power imbalances and cultural commodification. The research explored media influence, over-tourism, and economic dependence, emphasizing the need for a nuanced perspective."
     }, {
-        img: "/img/notsure.jpg",
+        img: "img/notsure.jpg",
         title: "Songs in Excel",
         description: "I used Excel to analyze the correlation between BPM and danceability in popular songs. Through regression analysis and data visualization, I identified trends showing how tempo influences listener engagement."
     }
