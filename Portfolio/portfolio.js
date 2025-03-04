@@ -1,18 +1,28 @@
 const projects = [
     {
-        img: "/img/league-page.png",
-        title: "ScoreSpot",
-        link: "https://github.com/vishalvunnam1/ScoreSpot",
-        video: "https://drive.google.com/file/d/1RUWH5i3TjjXcMa7Osb9b2u6XxYxmZhZc/view?usp=sharing",
-        description: ""
+        img: "/img/CuGreets.png",
+        title: "CU Greets you",
+        description: "I used surveys and Tableau to analyze feedback on an Information Science project, identifying areas for improvement. Insights from the data led to an app concept helping immigrants in Boulder find local resources."
     },
     {
-        img: "/img/IMG_4374.jpg",
-        title: "MIDI Drum Kit",
-        link: "https://github.com/vishalvunnam1/MIDIDrumKit",
-        video: "https://drive.google.com/file/d/1UEt-WDiX_0FNeBJO6ARFE_o8q73-7gdB/view?usp=sharing",
-        description: ""
+        img: "/img/NBA.png",
+        title: "NBA Data",
+        description: "Utilized Python to analyze the relationship between NBA player salaries, age, and performance. Using data from the NBA API, I identified patterns and visualized trends using pandas and matplotlib."
+    },
+    {
+        img: "/img/Twitter.png",
+        title: "Twitter Analysis",
+        description: "I developed a Python function to analyze Twitter data from a CSV file, identifying trends in political discourse. Using pandas, I extracted hashtags, and keywords to determine which politicians discussed issues frequently."
+    }, {
+        img: "/img/TheBeach.png",
+        title: "ICC in SEA",
+        description: "examined how Western tourism shapes Southeast Asian cultures, highlighting power imbalances and cultural commodification. The research explored media influence, over-tourism, and economic dependence, emphasizing the need for a nuanced perspective."
+    }, {
+        img: "/img/notsure.png",
+        title: "Songs in Excel",
+        description: "I used Excel to analyze the correlation between BPM and danceability in popular songs. Through regression analysis and data visualization, I identified trends showing how tempo influences listener engagement."
     }
+
 ];
 
 function renderProjects() {
@@ -57,8 +67,8 @@ function renderProjects() {
         videoLink.textContent = "Video";
         videoLink.target = "_blank";
 
-        links.appendChild(githubLink);
-        links.appendChild(videoLink);
+        // links.appendChild(githubLink);
+        // links.appendChild(videoLink);
 
         titleContainer.appendChild(title);
         titleContainer.appendChild(links);
@@ -67,6 +77,7 @@ function renderProjects() {
         description.textContent = project.description;
         description.style.textAlign = 'center';
         description.style.margin = "10px 0";
+        description.style.fontSize = "11px";
 
         card.appendChild(img);
         card.appendChild(titleContainer);

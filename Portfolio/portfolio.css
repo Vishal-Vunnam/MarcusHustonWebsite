@@ -39,12 +39,12 @@ img {
 }
 .profilepic img {
     image-rendering: pixelated;  /* This makes the image appear pixelated */
-    width: 90%;                        /* Set width of the profile picture */
-    height: 90%;                       /* Set height of the profile picture */                 /* Makes the image round */
-    margin: 10px;                        /* Adds space around the image */             /* White border around the image */
-    object-fit: cover;                   /* Ensures the image fills the circle without stretching */
-    filter: grayscale(100%);             /* Makes the image black and white */
-
+    width: 100%;                 /* Set width of the profile picture */
+    height: auto;                /* Set height of the profile picture */
+    margin: 10px;                /* Adds space around the image */
+    object-fit: cover;           /* Ensures the image fills the circle without stretching */
+    filter: grayscale(100%);     /* Makes the image black and white */
+    border-radius: 50%;          /* Makes the image round */
 }
 
 .index{
